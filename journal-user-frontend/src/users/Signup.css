@@ -1,0 +1,26 @@
+.signup-background {
+    background-image: url("/Users/mrinaliniraghavendran/journal-user-frontend/src/images/signup-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.signup-form {
+    background: transparent;
+}
+
+.signup-form input::placeholder {
+    color: #ddd;
+}

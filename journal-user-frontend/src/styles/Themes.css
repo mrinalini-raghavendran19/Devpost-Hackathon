@@ -1,0 +1,23 @@
+/* styles/themes.css */
+
+body.light {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --input-bg: #f0f0f0;
+    --button-bg: #007bff;
+    --button-text: white;
+}
+
+body.dark {
+    --bg-color: #1e1e1e;
+    --text-color: #e0e0e0;
+    --input-bg: #2c2c2c;
+    --button-bg: #5a5a5a;
+    --button-text: white;
+}
+
+.app-container {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    height: 100vh;
+}
